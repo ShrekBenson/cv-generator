@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --header: 50px;
+
+  --main-color: #213555;
+  --secondary-color: #213555;
+  --bg-color: #F5EFE7;
+  --complement-1-color: #D8C4B6;
+
+  font-family: 'Poppins',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  color: black;
+}
+
+body {
+  width: 100vw;
+  height: 100svh;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+header {
+  width: inherit;
+  height: var(--header);
+  background-color: var(--main-color);
+  padding: 0 150px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  height: inherit;
+}
+
+.logo>img {
+  width: 30px;
+}
+
+.logo>span {  
+  font-weight: 700;
+  color: var(--bg-color);
+}
