@@ -1,0 +1,28 @@
+.text-new-roman {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.template {
+  width: 595px;
+  height: calc(595px * 1.415);
+  padding: 36px;
+  background-color: white;  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-title {
+  width: 100%;  
+  margin-bottom: 8px;
+  border-bottom: 1px black solid;  
+}
+
+.section-title>h2 {
+  font-size: 1rem;
+}

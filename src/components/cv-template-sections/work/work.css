@@ -1,0 +1,28 @@
+.job,
+.job-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.job-info,
+.job-description {
+  font-size: .75rem;
+}
+
+.employer {
+  display: flex;
+  align-items: last baseline;
+  column-gap: 24px;
+}
+
+.position {
+  display: flex;
+  align-items: last baseline;
+  column-gap: 24px;
+  font-style: italic;
+}
+
+.position__title {
+  font-weight: 400;
+}

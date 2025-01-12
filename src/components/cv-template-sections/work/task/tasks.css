@@ -1,0 +1,8 @@
+.task-list {  
+  list-style: disc;
+  padding-left: 14px;
+}
+
+.task__description {
+  font-size: .75rem;
+}

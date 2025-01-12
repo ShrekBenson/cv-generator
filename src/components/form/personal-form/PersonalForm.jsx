@@ -1,16 +1,14 @@
-import Field from "../field/Field"
-import './personal_info.css'
+import Field from "../../field/Field"
+import './personal_form.css'
 
-export default function PersonalInfo({data,onChange}) {
-  
-
+export default function PersonalInfo({data,onChange=()=>{}}) {
   return (
     <>
-      <div className="input-section personal-info">
-        <div className="title">
-          <h1>Personal Info</h1>
-        </div>
-        <div className="fields">
+      <div className="form__title">
+        <h1>Personal Info</h1>
+      </div>
+      <div className="input-section">
+        <div className="input-section__fields">
           <Field
             id='name'
             type='text'

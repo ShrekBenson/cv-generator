@@ -1,0 +1,19 @@
+#gitRepository {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: last baseline;
+  column-gap: 4px;
+  font-family: 'Raleway', sans-serif;
+  font-size: .75rem;
+  border-bottom: 1px transparent solid;
+  transition: all .2s ease-in-out;
+}
+
+#gitRepository>img {
+  width: 16px;
+}
+
+#gitRepository:hover {
+  border-bottom: 1px black solid;
+}

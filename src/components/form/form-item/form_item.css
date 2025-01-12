@@ -1,0 +1,81 @@
+.input-section__fields--hidden {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  transform-origin: left;
+  transition: transform 400ms ease-in-out;
+}
+
+.input-section__fields {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  transform-origin: left;
+  transition: transform 400ms ease-in-out;
+}
+
+.form-item-info {
+  transform-origin: left;
+  transition: transform 200ms ease-in-out;
+}
+
+.form-item-info>h2,
+.form-item-info>p {
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+}
+
+.form-item-info>h2 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.form-item-info>p {
+  font-size: .875rem;
+}
+
+.edit-form-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.edit-form-title>h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--main-color);
+}
+
+.form-item-button {  
+  display: flex;
+  align-items: center;   
+  border: none;
+  background-color: transparent;
+  cursor: pointer;  
+  transition: transform 0.5s ease-in-out;
+  transform-origin: center;
+}
+
+.form-item-button img {
+  width: 32px;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.disappear-l {
+  transform: scaleX(0);
+}
+
+.show-r {
+  transform: scaleX(1);
+}

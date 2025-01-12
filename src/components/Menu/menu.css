@@ -1,0 +1,45 @@
+.menu {  
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  list-style: none;
+}
+
+.nav__button {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  border: none;
+  background-color: transparent;  
+}
+
+.nav__icon {
+  width: 28px;
+}
+
+.bg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-left: 2px var(--main-color) solid;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.nav__button:hover>.bg {
+  opacity: 1;
+}
+
+.nav__button.active>.bg {
+  opacity: 1;
+}

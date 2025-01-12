@@ -1,0 +1,21 @@
+.school-list {
+  list-style: none;
+}
+
+.school-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: .75rem;
+}
+
+.major-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: .75rem;
+  font-weight: normal;
+}
+
+.major-info__title {
+  font-weight: 400;
+  font-style: italic;
+}
